@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "Account History";
+}
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title heading-bold">Automated Teller Machine</h3>
+            </div>
+            <div class="panel-body dark-font">
+                <h2>Account History</h2>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <ul class="nav nav-pills nav-stacked">
+                            <li role="presentation" class="active"><a href="#">Student Checking <span class="badge">$420.69</span></a></li>
+                            <li role="presentation"><a href="#">Student Savings <span class="badge">$39.99</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-9">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Description</th>
+                                    <th>Amount</th>
+                                    <th>Account Balance</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="withdrawModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm dark-font">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Withdraw Funds</h4>
+            </div>
+            <div class="modal-body">
+                Form Here
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="depositModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm dark-font">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Withdraw Funds</h4>
+            </div>
+            <div class="modal-body">
+                Form Here
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>

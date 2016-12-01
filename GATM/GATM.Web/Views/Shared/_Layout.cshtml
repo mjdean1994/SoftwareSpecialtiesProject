@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title | ATM</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body class="bg-primary">
+    <div id="giraffeButton">
+        <a href="#"><img src="@Url.Content("~/Content/Images/giraffe.png")" height="48" width="48" /></a>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <script>
+        function initialize()
+        {
+            var isGiraffe = localStorage.getItem("giraffe");
+
+            if (isGiraffe == "true") {
+                turnToGiraffe();
+            }
+        }
+
+        function turnToGiraffe()
+        {
+            $(".bg-primary").removeClass("bg-primary");
+            $(".panel").removeClass("panel-primary");
+            $(".panel").addClass("panel-default");
+            $(".btn").removeClass("btn-primary");
+            $(".btn").addClass("btn-default");
+            $("body").css("background", "url('http://www.pixelstalk.net/wp-content/uploads/2016/05/Giraffe-Widescreen-HD.jpg')");
+        }
+
+        $(document).ready(function () {
+            $("#giraffeButton").click(function () {
+                var isGiraffe = localStorage.getItem("giraffe");
+
+                if(isGiraffe == "true")
+                {
+                    localStorage.setItem("giraffe", "false");
+                }
+                else
+                {
+                    localStorage.setItem("giraffe", "true");
+                }
+
+                location.reload();
+            });
+
+            initialize();
+        })
+    </script>
+</body>
+</html>
