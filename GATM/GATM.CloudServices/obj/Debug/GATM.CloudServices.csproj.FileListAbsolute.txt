@@ -1,0 +1,7 @@
+F:\SoftwareSpecialtiesProject\GATM\GATM.CloudServices\bin\Debug\GATM.CloudServices.dll
+F:\SoftwareSpecialtiesProject\GATM\GATM.CloudServices\bin\Debug\GATM.CloudServices.pdb
+F:\SoftwareSpecialtiesProject\GATM\GATM.CloudServices\bin\Debug\GATM.DataAccess.dll
+F:\SoftwareSpecialtiesProject\GATM\GATM.CloudServices\bin\Debug\GATM.DataAccess.pdb
+F:\SoftwareSpecialtiesProject\GATM\GATM.CloudServices\obj\Debug\GATM.CloudServices.csprojResolveAssemblyReference.cache
+F:\SoftwareSpecialtiesProject\GATM\GATM.CloudServices\obj\Debug\GATM.CloudServices.dll
+F:\SoftwareSpecialtiesProject\GATM\GATM.CloudServices\obj\Debug\GATM.CloudServices.pdb

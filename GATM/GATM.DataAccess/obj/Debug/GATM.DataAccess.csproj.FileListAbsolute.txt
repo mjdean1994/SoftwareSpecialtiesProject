@@ -1,0 +1,5 @@
+F:\SoftwareSpecialtiesProject\GATM\GATM.DataAccess\bin\Debug\GATM.DataAccess.dll
+F:\SoftwareSpecialtiesProject\GATM\GATM.DataAccess\bin\Debug\GATM.DataAccess.pdb
+F:\SoftwareSpecialtiesProject\GATM\GATM.DataAccess\obj\Debug\GATM.DataAccess.csprojResolveAssemblyReference.cache
+F:\SoftwareSpecialtiesProject\GATM\GATM.DataAccess\obj\Debug\GATM.DataAccess.dll
+F:\SoftwareSpecialtiesProject\GATM\GATM.DataAccess\obj\Debug\GATM.DataAccess.pdb

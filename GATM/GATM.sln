@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GATM.Web", "GATM.Web\GATM.Web.csproj", "{893F2994-5D38-4AF6-81D2-A42881036312}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GATM.CloudServices", "GATM.CloudServices\GATM.CloudServices.csproj", "{C979FE41-6DD5-4A79-B702-149275A55C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GATM.DataAccess", "GATM.DataAccess\GATM.DataAccess.csproj", "{EDCE90B7-7C4E-45C8-B1A1-6AFDCC486FEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{893F2994-5D38-4AF6-81D2-A42881036312}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{893F2994-5D38-4AF6-81D2-A42881036312}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{893F2994-5D38-4AF6-81D2-A42881036312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C979FE41-6DD5-4A79-B702-149275A55C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C979FE41-6DD5-4A79-B702-149275A55C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C979FE41-6DD5-4A79-B702-149275A55C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C979FE41-6DD5-4A79-B702-149275A55C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCE90B7-7C4E-45C8-B1A1-6AFDCC486FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCE90B7-7C4E-45C8-B1A1-6AFDCC486FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCE90B7-7C4E-45C8-B1A1-6AFDCC486FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCE90B7-7C4E-45C8-B1A1-6AFDCC486FEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
